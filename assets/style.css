@@ -9,3 +9,24 @@ body {
 
     height:100vh;
 }
+
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.content-container {
+    margin: auto;
+}
+
+.link-wrapper {
+    padding: 16px 0;
+}
+
+.link {
+    font-size: 48px;
+    font-weight: 100px;
+    text-decoration: none;
+    color: #cecece;
+    vertical-align:middle;
+}
