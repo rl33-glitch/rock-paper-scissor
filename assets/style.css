@@ -53,6 +53,11 @@ body {
     color: #cecece;
     font-size: 24px;
 }
+
+.links-container {
+   margin: 150px 0 70px 0;
+   text-align:center;
+}
 /* index page style */
 /* mayhem page style */
 
