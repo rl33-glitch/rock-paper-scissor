@@ -166,7 +166,7 @@ h1 {
 .selection-container {
     display: flex;
     justify-content: space-evenly;
-    align-items:900;
+    align-items:center;
 }
 
 
