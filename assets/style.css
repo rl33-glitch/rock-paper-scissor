@@ -223,6 +223,23 @@ h1 {
   font-size: 1.5rem;
 }
 
+.rock,
+.paper,
+.scissors,
+.lizard,
+.spock {
+    height: 8vw;
+    width: 8vw;
+    background-color:#333333;
+    border-radius: 100%;
+    margin: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 100ms;
+}
+
 
 
 
