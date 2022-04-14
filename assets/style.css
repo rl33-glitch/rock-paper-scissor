@@ -74,3 +74,18 @@ body {
     align-items: center;
     padding: 12px;
 }
+
+.circle-bottom {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.circle {
+    height:12px;
+    width:12px;
+    background-color:#333333;
+    border-radius: 100%;
+}
+/* mayhem page style */
