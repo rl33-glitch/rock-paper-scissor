@@ -265,6 +265,31 @@ h1 {
     transform:scale(1.2);
 }
 
+.rock img {
+  width: 40%;
+  height: auto;
+}
+
+.paper img {
+    width: 40%;
+    height:auto
+}
+
+.scissors img {
+    width:40%;
+    height:auto;
+}
+
+.lizard img {
+    width:40% ;
+    height:auto;
+}
+
+.spock img {
+ width: 40%;
+ height: auto;
+
+}
 
 
 
