@@ -54,7 +54,7 @@ body {
     font-size: 24px;
 }
 /* index page style */
-/* mayhem page style */
+/* mayhempage style */
 
 .container-mayhem {
     height: 100vh;
@@ -88,4 +88,47 @@ body {
     background-color:#333333;
     border-radius: 100%;
 }
-/* mayhem page style */
+
+.game-container {
+    border: 1px solid #333333;
+    border-radius: 20px;
+    margin:0 36px;
+    padding: 16px;
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.score-container {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid #333333;
+    border-radius: 16px;
+}
+
+.computer-container {
+    text-align: right;
+}
+
+p {
+    margin: 0;
+
+}
+
+.player-name,
+.computer-name {
+    font-size: 1.125rem;
+}
+
+.player-score,
+.computer-score {
+    font-size: 2.25rem;
+}
+
+.menu-container{
+    height: 50px;
+    width:50px;
+}
+
