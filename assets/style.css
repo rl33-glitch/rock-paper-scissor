@@ -40,3 +40,17 @@ body {
     color: #333333;
 }
 
+.copyright-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-family: "Monofett", cursive;
+    text-align:center;
+    color: #cecece;
+    font-size: 24px;
+}
+
+
