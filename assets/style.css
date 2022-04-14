@@ -1,3 +1,4 @@
+/* index page style */
 body {
     margin: 0;
     padding: 0;
@@ -52,5 +53,24 @@ body {
     color: #cecece;
     font-size: 24px;
 }
+/* index page style */
+/* mayhem page style */
 
+.container-mayhem {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
 
+.wrapper-mayhem {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-top {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+}
