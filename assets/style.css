@@ -30,3 +30,13 @@ body {
     color: #cecece;
     vertical-align:middle;
 }
+
+.link i {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.link:hover {
+    color: #333333;
+}
+
