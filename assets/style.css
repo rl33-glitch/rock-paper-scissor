@@ -240,7 +240,30 @@ h1 {
     transition: 100ms;
 }
 
+.rock:hover{
+    background-color: #cecece;
+    transform: scale(1.2);
+}
 
+.paper:hover {
+    background-color:#cecece;
+    transform: scale(1.2);
+}
+
+.scissors:hover{
+    background-color:#cecece;
+    transform: scale(1.2);
+}
+
+.lizard:hover{
+    background-color:#cecece;
+    transform:scale(1.2);
+}
+
+.spock:hover {
+    background-color:#cecece;
+    transform:scale(1.2);
+}
 
 
 
