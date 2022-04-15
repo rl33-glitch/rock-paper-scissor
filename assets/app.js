@@ -18,6 +18,10 @@ let userChoiceImg;
 let computerChoice;
 let computerChoiceImg;
 
+//variable for results
+
+let resultText = document.querySelector(".result");
+let resultInfo = document.querySelector(".result-info");
 
 // rock option move
 
@@ -131,7 +135,55 @@ function getResults() {
         let computerBackgroundColour = document.querySelector(".computer-selected");
         computerBackgroundColour.classList.remove("winner");
 
-        
+        resultText.innerHTML = `<i class="fa-solid fa-face-meh-blank"></i>&nbsp;IT'S A DRAW!&nbsp;<i class="fa-solid fa-face-meh-blank"></i>`;
+        resultInfo.innerHTML = "Make your move.";
+   
+    }
+
+    //player wins
+
+    if (userChoice === "rock" && computerChoice === "scissors") {
+        let playerBackgroundColour = document.querySelector(".player-selected");
+        playerBackgroundColour.classList.add("winner");
+
+        let computerBackgroundColour = document.querySelector(".computer-selected");
+        computerBackgroundColour.classList.remove("winner");
+
+        resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+        resultInfo.innerHTML = "Rock crushes scissors";
+    }
+
+    if (userChoice === "rock" && computerChoice === "lizard") {
+
+        let playerBackgroundColour = document.querySelector(".player-selected");
+        playerBackgroundColour.classList.add("winner");
+
+        let computerBackgroundColour = document.querySelector(".computer-selected");
+        computerBackgroundColour.classList.remove("winner");
+
+        resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+    resultInfo.innerHTML = "Rock crushes lizard";
+    }
+
+    if (userChoice === "paper" && computerChoice === "rock") {
+    
+        let playerBackgroundColour = document.querySelector(".player-selected");
+        playerBackgroundColour.classList.add("winner");
+
+        let computerBackgroundColour = document.querySelector(".computer-selected");
+        computerBackgroundColour.classList.remove("winner");
+
+        resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+        resultInfo.innerHTML = "Paper covers rock";
 
     }
 }
