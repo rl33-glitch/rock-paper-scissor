@@ -26,3 +26,11 @@ paperPlayer.addEventListener("click", paperSelected);
 function paperSelected() {
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/paper-player.png";
 }
+
+//scissors option move
+
+scissorsPlayer.addEventListener("click", scissorsSelected);
+
+function scissorsSelected() {
+    userChoiceImg = document.querySelector(".player-selected-img").src = "images/scissor-player.png";
+}
