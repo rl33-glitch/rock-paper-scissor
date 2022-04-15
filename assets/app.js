@@ -18,3 +18,11 @@ function rockSelected() {
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/rock-player.png";
 
 }
+
+//paper option move
+
+paperPlayer.addEventListener("click", paperSelected);
+
+function paperSelected() {
+    userChoiceImg = document.querySelector(".player-selected-img").src = "images/paper-player.png";
+}
