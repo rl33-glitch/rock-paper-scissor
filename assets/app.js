@@ -12,7 +12,10 @@ let spockPlayer = document.querySelector(".spock");
 let userChoiceImg;
 
 //variable for computer choice
+
 let computerChoice;
+let computerChoiceImg;
+
 
 // rock option move
 
@@ -78,4 +81,29 @@ function generateComputerChoice() {
 
     computerChoice = computerPossibilities[randomNumber];
     console.log(computerChoice);
+
+    if (computerChoice === "rock") {
+       computerChoiceImg = document.querySelector(".computer-selected-img").src =
+       "images/rock-computer.png";
+    }
+
+    if (computerChoice === "paper") {
+        computerChoiceImg = document.querySelector(".computer-selected-img").src =
+        "images/paper-computer.png";
+    }
+
+    if (computerChoice === "scissors") {
+        computerChoiceImg = document.querySelector(".computer-selected-img").src =
+          "images/scissor-computer.png";
+      }
+    
+    if (computerChoice === "lizard") {
+        computerChoiceImg = document.querySelector(".computer-selected-img").src =
+          "images/lizard-computer.png";
+      }
+    
+    if (computerChoice === "spock") {
+        computerChoiceImg = document.querySelector(".computer-selected-img").src =
+          "images/spock-computer.png";
+      }
 }
