@@ -34,3 +34,12 @@ scissorsPlayer.addEventListener("click", scissorsSelected);
 function scissorsSelected() {
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/scissor-player.png";
 }
+
+//lizard option move
+
+lizardPlayer.addEventListener("click", lizardSelected);
+
+function lizardSelected() {
+    userChoiceImg = document.querySelector(".player-selected-img").src =
+    "images/lizard-player.png";
+}
