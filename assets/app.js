@@ -43,3 +43,12 @@ function lizardSelected() {
     userChoiceImg = document.querySelector(".player-selected-img").src =
     "images/lizard-player.png";
 }
+
+//spock option move
+
+spockPlayer.addEventListener("click", spockSelected);
+
+function spockSelected() {
+    userChoiceImg = document.querySelector(".player-selected-img").src =
+    "images/spock-player.png";
+}
