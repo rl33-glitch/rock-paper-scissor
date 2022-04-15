@@ -9,7 +9,9 @@ let spockPlayer = document.querySelector(".spock");
 
 //variable for player option image
 
+let userChoice;
 let userChoiceImg;
+
 
 //variable for computer choice
 
@@ -22,9 +24,11 @@ let computerChoiceImg;
 rockPlayer.addEventListener("click", rockSelected);
 
 function rockSelected() {
+    userChoice = rockPlayer.id;
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/rock-player.png";
 
     generateComputerChoice();
+    getResults();
 
 }
 
@@ -33,9 +37,11 @@ function rockSelected() {
 paperPlayer.addEventListener("click", paperSelected);
 
 function paperSelected() {
+    userChoice = paperPlayer.id;
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/paper-player.png";
 
     generateComputerChoice();
+    getResults();
 }
 
 //scissors option move
@@ -43,9 +49,11 @@ function paperSelected() {
 scissorsPlayer.addEventListener("click", scissorsSelected);
 
 function scissorsSelected() {
+    userChoice = scissorsPlayer.id;
     userChoiceImg = document.querySelector(".player-selected-img").src = "images/scissor-player.png";
 
     generateComputerChoice();
+    getResults();
 }
 
 //lizard option move
@@ -53,10 +61,12 @@ function scissorsSelected() {
 lizardPlayer.addEventListener("click", lizardSelected);
 
 function lizardSelected() {
+    userChoice = lizardPlayer.id;
     userChoiceImg = document.querySelector(".player-selected-img").src =
     "images/lizard-player.png";
 
     generateComputerChoice();
+    getResults();
 }
 
 //spock option move
@@ -64,10 +74,12 @@ function lizardSelected() {
 spockPlayer.addEventListener("click", spockSelected);
 
 function spockSelected() {
+    userChoice = spockPlayer.id;
     userChoiceImg = document.querySelector(".player-selected-img").src =
     "images/spock-player.png"; 
 
     generateComputerChoice();
+    getResults();
 }
 
 //computer choice
@@ -106,4 +118,20 @@ function generateComputerChoice() {
         computerChoiceImg = document.querySelector(".computer-selected-img").src =
           "images/spock-computer.png";
       }
+}
+
+function getResults() {
+    //draw
+
+    if (userChoice === computerChoice) {
+    
+        let playerBackgroundColour = document.querySelector(".player-selected");
+        playerBackgroundColour.classList.remove("winner");
+
+        let computerBackgroundColour = document.querySelector(".computer-selected");
+        computerBackgroundColour.classList.remove("winner");
+
+        
+
+    }
 }
