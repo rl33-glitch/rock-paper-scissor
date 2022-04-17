@@ -24,6 +24,10 @@ let resultText = document.querySelector(".result");
 let resultInfo = document.querySelector(".result-info");
 let playerBackgroundColour = document.querySelector(".player-selected");
 let computerBackgroundColour = document.querySelector(".computer-selected");
+let userScore = 0;
+let computerScore = 0;
+let userScoreResult = document.querySelector(".player-score");
+let computerScoreResult = document.querySelector(".computer-score");
 
 // rock option move
 
