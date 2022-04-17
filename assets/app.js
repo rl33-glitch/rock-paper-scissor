@@ -22,6 +22,8 @@ let computerChoiceImg;
 
 let resultText = document.querySelector(".result");
 let resultInfo = document.querySelector(".result-info");
+let playerBackgroundColour = document.querySelector(".player-selected");
+let computerBackgroundColour = document.querySelector(".computer-selected");
 
 // rock option move
 
@@ -129,24 +131,20 @@ function getResults() {
 
     if (userChoice === computerChoice) {
     
-        let playerBackgroundColour = document.querySelector(".player-selected");
+        
         playerBackgroundColour.classList.remove("winner");
-
-        let computerBackgroundColour = document.querySelector(".computer-selected");
         computerBackgroundColour.classList.remove("winner");
 
         resultText.innerHTML = `<i class="fa-solid fa-face-meh-blank"></i>&nbsp;IT'S A DRAW!&nbsp;<i class="fa-solid fa-face-meh-blank"></i>`;
         resultInfo.innerHTML = "Make your move.";
-   
+    
     }
 
     //player wins
 
     if (userChoice === "rock" && computerChoice === "scissors") {
-        let playerBackgroundColour = document.querySelector(".player-selected");
+        
         playerBackgroundColour.classList.add("winner");
-
-        let computerBackgroundColour = document.querySelector(".computer-selected");
         computerBackgroundColour.classList.remove("winner");
 
         resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
@@ -158,10 +156,8 @@ function getResults() {
 
     if (userChoice === "rock" && computerChoice === "lizard") {
 
-        let playerBackgroundColour = document.querySelector(".player-selected");
+        
         playerBackgroundColour.classList.add("winner");
-
-        let computerBackgroundColour = document.querySelector(".computer-selected");
         computerBackgroundColour.classList.remove("winner");
 
         resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
@@ -173,10 +169,8 @@ function getResults() {
 
     if (userChoice === "paper" && computerChoice === "rock") {
     
-        let playerBackgroundColour = document.querySelector(".player-selected");
+       
         playerBackgroundColour.classList.add("winner");
-
-        let computerBackgroundColour = document.querySelector(".computer-selected");
         computerBackgroundColour.classList.remove("winner");
 
         resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
@@ -189,11 +183,8 @@ function getResults() {
    
     if (userChoice === "paper" && computerChoice === "spock") {
         
-
-        let playerBackgroundColour = document.querySelector(".player-selected");
-        playerBackgroundColour.classList.add("winner");
-        let computerBackgroundColour = document.querySelector(".computer-selected");
-        computerBackgroundColour.classList.remove("winner");
+            playerBackgroundColour.classList.add("winner");
+            computerBackgroundColour.classList.remove("winner");
 
         
     
@@ -206,10 +197,8 @@ function getResults() {
   
   if ( userChoice === "scissors" && computerChoice === "paper") {
 
-    let playerBackgroundColour = document.querySelector(".player-selected");
-    playerBackgroundColour.classList.add("winner");
-    let computerBackgroundColour = document.querySelector(".computer-selected");
-    computerBackgroundColour.classList.remove("winner");
+        playerBackgroundColour.classList.add("winner");
+        computerBackgroundColour.classList.remove("winner");
 
     resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
             class="fa-solid fa-star"
