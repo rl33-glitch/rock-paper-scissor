@@ -186,4 +186,24 @@ function getResults() {
         resultInfo.innerHTML = "Paper covers rock";
 
     }
+   
+    if (userChoice === "paper" && computerChoice === "spock") {
+        
+
+        let playerBackgroundColour = document.querySelector(".player-selected");
+        playerBackgroundColour.classList.add("winner");
+        let computerBackgroundColour = document.querySelector(".computer-selected");
+        computerBackgroundColour.classList.remove("winner");
+
+        
+    
+    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+    resultInfo.innerHTML = "Paper disproves Spock";
+  }
+  
+
+    
 }
