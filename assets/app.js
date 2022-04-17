@@ -299,6 +299,27 @@ function getResults() {
     resultInfo.innerHTML = "Rock crushes lizard";
   }
 
+  if (computerChoice === "paper" && userChoice === "rock") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+   
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Paper covers rock";
+  }
+
+  if (computerChoice === "paper" && userChoice === "spock") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+   
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Paper disproves Spock";
+  }
+
+
 
     
 }
