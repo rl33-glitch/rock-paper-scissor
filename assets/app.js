@@ -207,5 +207,19 @@ function getResults() {
     resultInfo.innerHTML = "Scissors cuts Paper";
   }
 
+  if (userChoice === "scissors" && computerChoice === "lizard") {
+  
+
+        playerBackgroundColour.classList.add("winner");
+        computerBackgroundColour.classList.remove("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+    resultInfo.innerHTML = "Scissors decapitates Lizard";
+  }
+
     
 }
