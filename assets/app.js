@@ -339,6 +339,26 @@ function getResults() {
     resultInfo.innerHTML = "Scissors decapitates Lizard";
   }
 
+  if (computerChoice === "lizard" && userChoice === "paper") {
+   
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+   
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Lizard eats paper";
+  }
+
+  if (computerChoice === "lizard" && userChoice === "spock") {
+   
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Lizard poisons Spock";
+  }
+
 
 
     
