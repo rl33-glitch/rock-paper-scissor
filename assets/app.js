@@ -221,5 +221,34 @@ function getResults() {
     resultInfo.innerHTML = "Scissors decapitates Lizard";
   }
 
+  if (userChoice === "lizard" && computerChoice === "paper") {
+    
+    playerBackgroundColour.classList.add("winner");
+    computerBackgroundColour.classList.remove("winner");
+
+   
+    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+    resultInfo.innerHTML = "Lizard eats paper";
+  }
+
+  if (userChoice === "lizard" && computerChoice === "spock") {
+    
+
+    
+    playerBackgroundColour.classList.add("winner");
+    computerBackgroundColour.classList.remove("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+            class="fa-solid fa-star"
+          ></i
+        >`;
+    resultInfo.innerHTML = "Lizard poisons Spock";
+  }
+
+
     
 }
