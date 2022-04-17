@@ -319,6 +319,26 @@ function getResults() {
     resultInfo.innerHTML = "Paper disproves Spock";
   }
 
+  if (computerChoice === "scissors" && userChoice === "paper") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Scissors cuts Paper";
+  }
+
+  if (computerChoice === "scissors" && userChoice === "lizard") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+   
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Scissors decapitates Lizard";
+  }
+
 
 
     
