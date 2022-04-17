@@ -359,6 +359,26 @@ function getResults() {
     resultInfo.innerHTML = "Lizard poisons Spock";
   }
 
+  if (computerChoice === "spock" && userChoice === "scissors") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Spock smashes scissors";
+  }
+
+  if (computerChoice === "spock" && userChoice === "rock") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Spock vaporizes rock";
+  }
+
 
 
     
