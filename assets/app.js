@@ -321,6 +321,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Rock crushes scissors";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "rock" && userChoice === "lizard") {
@@ -331,6 +333,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Rock crushes lizard";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "paper" && userChoice === "rock") {
@@ -341,6 +345,8 @@ function getResults() {
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Paper covers rock";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "paper" && userChoice === "spock") {
@@ -351,6 +357,8 @@ function getResults() {
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Paper disproves Spock";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "scissors" && userChoice === "paper") {
@@ -361,6 +369,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Scissors cuts Paper";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "scissors" && userChoice === "lizard") {
@@ -371,6 +381,8 @@ function getResults() {
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Scissors decapitates Lizard";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "lizard" && userChoice === "paper") {
@@ -381,6 +393,8 @@ function getResults() {
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Lizard eats paper";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "lizard" && userChoice === "spock") {
@@ -391,6 +405,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Lizard poisons Spock";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "spock" && userChoice === "scissors") {
@@ -401,6 +417,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Spock smashes scissors";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
   if (computerChoice === "spock" && userChoice === "rock") {
@@ -411,6 +429,8 @@ function getResults() {
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Spock vaporizes rock";
+    computerScore++;
+    computerScoreResult.innerHTML = computerScore;
   }
 
 
