@@ -277,6 +277,28 @@ function getResults() {
     resultInfo.innerHTML = "Spock vaporizes rock";
   }
 
+  //player loose
+
+  if (computerChoice === "rock" && userChoice === "scissors") {
+
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Rock crushes scissors";
+  }
+
+  if (computerChoice === "rock" && userChoice === "lizard") {
+    
+    playerBackgroundColour.classList.remove("winner");
+    computerBackgroundColour.classList.add("winner");
+
+    
+    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
+    resultInfo.innerHTML = "Rock crushes lizard";
+  }
+
 
     
 }
