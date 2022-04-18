@@ -72,9 +72,9 @@ body {
     color: #cecece;
     font-size: 24px;
 }
-
-
 /* index page style */
+
+
 /* mayhem page style */
 
 /* enter name starts */
@@ -189,7 +189,7 @@ body {
   /* menu ends */
 
 .container-mayhem {
-
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -283,11 +283,13 @@ p {
 .player-name,
 .computer-name {
     font-size: 1.125rem;
+    line-height: 1;
 }
 
 .player-score,
 .computer-score {
     font-size: 2.25rem;
+    line-height: 1;
 }
 
 .menu-container {
