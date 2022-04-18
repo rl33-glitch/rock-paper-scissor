@@ -10,25 +10,20 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 - [Wireframes]
 - [Features](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#features)
   - [Homepage](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Homepage)
-  - [The header]
-  - [Middle section]
-  - [How it works]
-  - [Footer]
-  - [Locations page]
-  - [Contact Us page]
-  - [Get Started page]
-- [Technologies Used]
-- [Testing]
-  - [Acessibility]
-  - [Browser Compatibility]
-- [Bugs]
-  - [Resolved bugs]
-- [Deployment]
-  - [To deploy the project]
-- [Credits]
-  - [Content]
-  - [Media]
-- [Acknowledgements]
+  - [Classic Game Mode](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Classic Game Mode)
+  - [Mayhem Game Mode](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Mayhem Game Mode)
+  - [How to play](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#How to play)
+- [Technologies Used](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Technologies Used)
+- [Testing](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Testing)
+  - [Acessibility](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Acessibility)
+  - [Browser Compatibility](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Browser Compatibility)
+- [Bugs](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Bugs)
+  - [Resolved bugs](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Resolved bugs)
+- [Deployment](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Deployment)
+- [Credits](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Credits)
+- [Media](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Media)
+- [Acknowledgements](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Acknowledgements)
+
 # User stories
 - As a user i want to know what the site purpose is in a short amount of time.
 
