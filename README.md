@@ -6,7 +6,7 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 
 
 # Content
-- [Wireframes]
+- [Wireframes](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Wireframes)
 - [Features](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#features)
 - [Homepage](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Homepage)
 - [Classic Game Mode](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Classic-Game-Mode)
@@ -32,9 +32,13 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 
 The Rock paper scissor wireframes was developed using the software [Balsamiq](https://balsamiq.com/). The wireframe provides a view for desktop and mobile devices of the four pages (Home page, Mayhem game mode page, Classic game mode page, How to play game page).
 
-![Desktop-wireframe]()
+ - Desktop-wireframe
 
-![Mobile-wireframe]()
+![wireframe](https://user-images.githubusercontent.com/67274642/163875658-2fd15e4a-09fc-47bb-b529-a493c6685eb6.jpg)
+
+  - Mobile-wireframe
+
+![wireframe-mobile](https://user-images.githubusercontent.com/67274642/163875697-25982aeb-c0b0-4a01-be71-10f2b828b067.jpg)
 
 [Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
