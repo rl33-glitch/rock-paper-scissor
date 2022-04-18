@@ -86,6 +86,8 @@ let userScore = 0;
 let computerScore = 0;
 let userScoreResult = document.querySelector(".player-score");
 let computerScoreResult = document.querySelector(".computer-score");
+let userScoreResult480 = document.querySelector(".player-score-480");
+let computerScoreResult480 = document.querySelector(".computer-score-480");
 
 // rock option move
 
@@ -217,6 +219,7 @@ function getResults() {
 
         userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
     }
 
     if (userChoice === "rock" && computerChoice === "lizard") {
@@ -233,6 +236,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
     }
 
     if (userChoice === "paper" && computerChoice === "rock") {
@@ -249,6 +253,7 @@ function getResults() {
 
         userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
 
     }
    
@@ -267,6 +272,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
   
   if ( userChoice === "scissors" && computerChoice === "paper") {
@@ -282,6 +288,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   if (userChoice === "scissors" && computerChoice === "lizard") {
@@ -299,6 +306,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   if (userChoice === "lizard" && computerChoice === "paper") {
@@ -315,6 +323,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   if (userChoice === "lizard" && computerChoice === "spock") {
@@ -333,6 +342,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   if (userChoice === "spock" && computerChoice === "scissors") {
@@ -350,6 +360,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   if (userChoice === "spock" && computerChoice === "rock") {
@@ -367,6 +378,7 @@ function getResults() {
 
     userScore++;
     userScoreResult.innerHTML = userScore;
+    userScoreResult480.innerHTML = userScore;
   }
 
   //player loose
@@ -381,6 +393,7 @@ function getResults() {
     resultInfo.innerHTML = "Rock crushes scissors";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "rock" && userChoice === "lizard") {
@@ -393,6 +406,7 @@ function getResults() {
     resultInfo.innerHTML = "Rock crushes lizard";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "paper" && userChoice === "rock") {
@@ -405,6 +419,7 @@ function getResults() {
     resultInfo.innerHTML = "Paper covers rock";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "paper" && userChoice === "spock") {
@@ -417,6 +432,7 @@ function getResults() {
     resultInfo.innerHTML = "Paper disproves Spock";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "scissors" && userChoice === "paper") {
@@ -429,6 +445,7 @@ function getResults() {
     resultInfo.innerHTML = "Scissors cuts Paper";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "scissors" && userChoice === "lizard") {
@@ -441,6 +458,7 @@ function getResults() {
     resultInfo.innerHTML = "Scissors decapitates Lizard";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "lizard" && userChoice === "paper") {
@@ -453,6 +471,7 @@ function getResults() {
     resultInfo.innerHTML = "Lizard eats paper";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "lizard" && userChoice === "spock") {
@@ -465,6 +484,7 @@ function getResults() {
     resultInfo.innerHTML = "Lizard poisons Spock";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "spock" && userChoice === "scissors") {
@@ -477,6 +497,7 @@ function getResults() {
     resultInfo.innerHTML = "Spock smashes scissors";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
   if (computerChoice === "spock" && userChoice === "rock") {
@@ -489,6 +510,7 @@ function getResults() {
     resultInfo.innerHTML = "Spock vaporizes rock";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
+    computerScoreResult480.innerHTML = computerScore;
   }
 
 
