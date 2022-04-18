@@ -659,6 +659,22 @@ h1 {
         width: 87.500vw;
         height: 87.500vw;
     }
+
+    .enter-name-container {
+      padding: 0;
+    }
+
+    #name-text-input {
+      width: 66.667vw;
+    }
+
+    #name-text-input {
+      font-size: 16px;
+    }
+
+    #play {
+      font-size: 16px;
+    }
   }
   
   @media screen and (max-width: 351px) {
