@@ -7,17 +7,37 @@ body {
 }
 
 .container{
-
     height:100vh;
+    width: 100vw;
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.logo-container {
     display: flex;
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.logo {
+    width: 75vw;
+    height: auto;
 }
 
 .content-container {
     margin: auto;
+}
+
+.links-container {
+    margin: 150px 0 70px 0;
+    text-align: center;
 }
 
 .link-wrapper {
@@ -29,7 +49,7 @@ body {
     font-weight: 100px;
     text-decoration: none;
     color: #cecece;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .link i {
@@ -42,8 +62,6 @@ body {
 }
 
 .copyright-container {
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -54,28 +72,140 @@ body {
     font-size: 24px;
 }
 
-.links-container {
-   margin: 150px 0 70px 0;
-   text-align:center;
-}
+
 /* index page style */
 /* mayhem page style */
+
+/* enter name starts */
+
+.enter-name-wrapper {
+    position: absolute;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .enter-name-container {
+    padding: 24px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    display: block;
+  }
+  
+  #name-text-input {
+    padding: 16px 16px;
+    font-family: "Press Start 2P", cursive;
+    font-size: 18px;
+    border: 2px solid #333333;
+    border-radius: 3px;
+    margin-bottom: 30px;
+  }
+  
+  #play {
+    color: #333333;
+    background-color: white;
+    font-family: "Press Start 2P", cursive;
+    font-size: 18px;
+    border: 2px solid #333333;
+    border-radius: 3px;
+    box-shadow: rgba(51, 51, 51, 100%) 7px 7px;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  #play:hover {
+    background-color: #ebebeb;
+    box-shadow: rgba(51, 51, 51, 100%) 3px 3px;
+  }
+  
+  /* enter name ends */
+
+  /* menu starts */
+.menu-wrapper {
+    position: absolute;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333333;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-show {
+    display: flex;
+  }
+  
+  .menu-cont {
+    text-align: center;
+  }
+  
+  .close-container {
+    margin-bottom: 80px;
+  }
+  
+  .close {
+    font-size: 72px;
+    color: #cecece;
+  }
+  
+  .close:hover {
+    color: #5c5c5c;
+  }
+  
+  .link-container {
+    margin: 24px 0;
+  }
+  
+  .menu-link {
+    font-size: 48px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #5c5c5c;
+    vertical-align: middle;
+  }
+  
+  .menu-link i {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  
+  .menu-link:hover {
+    color: #cecece;
+  }
+  
+  /* menu ends */
 
 .container-mayhem {
     height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .wrapper-mayhem {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .circle-top {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 12px;
 }
@@ -85,33 +215,63 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    bottom: 0;
 }
 
 .circle {
-    height:12px;
-    width:12px;
-    background-color:#333333;
+    height: 12px;
+    width: 12px;
+    background-color: #333333;
     border-radius: 100%;
 }
 
 .game-container {
     border: 1px solid #333333;
     border-radius: 20px;
-    margin:0 36px;
+    margin: 0 36px;
     padding: 16px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: stretch;
     align-content: stretch;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .score-container {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     border: 1px solid #333333;
-    border-radius: 16px;
+    border-radius: 20px;
+    padding: 16px;
 }
+
+/* score screen size max 480 starts */
+
+.score-container-480 {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 16px;
+  }
+  
+  .menu-container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .score-players {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*  score screen size max 480 ends */
+  
 
 .computer-container {
     text-align: right;
@@ -134,32 +294,55 @@ p {
 
 .menu-container {
     height: 50px;
-    width:50px;
-    border:2px solid #333333;
+    width: 50px;
+    border: 2px solid #333333;
     border-radius: 5px;
     text-align: center;
     display: flex;
-    align-items:center;
-    justify-content:center;
-    color:#333333;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
     cursor: pointer;
-
+    box-shadow: rgba(51, 51, 51, 100%) 7px 7px;
+    font-size: 18px;
 }
 
+.menu-container:hover {
+    background-color: #ebebeb;
+    box-shadow: rgba(51, 51, 51, 100%) 3px 3px;
+}
 
 .selected-players-container {
     border-radius: 20px;
     border: 1px solid #333333;
-    padding: 16px;
+    padding: 16px 0;
     margin: 16px 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .result-wrapper {
     text-align: center;
+    margin-bottom: 24px;
 }
 
 h1 {
     margin:0;
+}
+
+.result {
+    font-size: 1.5rem;
+    font-family: "Press Start 2P", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+.result i {
+    font-size: 1rem;
 }
 
 .result-info {
@@ -171,18 +354,18 @@ h1 {
 .selection-container {
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
 }
 
 .player-selected,
 .computer-selected {
-    height:15vw;
-    width:15vw;
-    border-radius:100%;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 100%;
     background-color: #333333;
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .player-selected-img {
@@ -191,12 +374,12 @@ h1 {
 }
 
 .computer-selected-img {
-   width:40%;
-   height:auto;
+   width: 40%;
+   height: auto;
 }
 
 .winner {
-    background-color:#befeb8;
+    background-color: #befeb8;
 }
 
 .middle-content {
@@ -210,7 +393,7 @@ h1 {
     text-align: center;
     padding: 16px 0;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -219,9 +402,9 @@ h1 {
 }
 
 .options-wrapper {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .options-info {
@@ -277,23 +460,22 @@ h1 {
 
 .paper img {
     width: 40%;
-    height:auto
+    height: auto
 }
 
 .scissors img {
-    width:40%;
-    height:auto;
+    width: 40%;
+    height: auto;
 }
 
 .lizard img {
-    width:40% ;
-    height:auto;
+    width: 40% ;
+    height: auto;
 }
 
 .spock img {
  width: 40%;
  height: auto;
-
 }
 
 .info-page {
@@ -311,5 +493,183 @@ h1 {
     border: 5px solid
 }
 
+/* media queries */
 
+
+@media screen and (max-width: 900px) {
+    .player-selected,
+    .computer-selected {
+      height: 22.222vw;
+      width: 22.222vw;
+    }
+  
+    .options-info {
+      font-size: 1.125rem;
+    }
+  
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 10vw;
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .middle-content {
+      font-size: 2.25rem;
+    }
+  
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 10.417vw;
+      width: 10.417vw;
+      margin: 0 16px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .circle-top {
+      display: none;
+    }
+  
+    .circle-bottom {
+      display: none;
+    }
+  
+    .game-container {
+      border: none;
+      margin: 0;
+    }
+  
+    .player-selected,
+    .computer-selected {
+      height: 33.333vw;
+      width: 33.333vw;
+    }
+  
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 13.333vw;
+      width: 13.333vw;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .middle-content {
+      font-size: 1.5rem;
+    }
+  
+    .result {
+      font-size: 1.125rem;
+    }
+  
+    .player-options-container {
+      padding: 0;
+    }
+  
+    .options-wrapper {
+      flex-wrap: wrap;
+    }
+  
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 14.815vw;
+      width: 14.815vw;
+      margin: 0 24px;
+    }
+  
+    .menu-link,
+    .link {
+      font-size: 36px;
+    }
+  
+    .menu-link i {
+      font-size: 12px;
+    }
+  
+    .link i {
+      font-size: 12px;
+    }
+  
+    .close {
+      font-size: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .score-container {
+      display: none;
+    }
+  
+    .score-container-480 {
+      display: flex;
+    }
+  
+    .selected-players-container {
+      border: none;
+      padding: 0;
+    }
+  
+    .selection-container {
+      justify-content: space-between;
+    }
+  
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 16.667vw;
+      width: 16.667vw;
+      margin: 0 24px;
+    }
+  
+    .menu-link,
+    .link {
+      font-size: 24px;
+    }
+  
+    .menu-link i {
+      font-size: 8px;
+    }
+  
+    .link i {
+      font-size: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 351px) {
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      margin: 0 16px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .rock,
+    .paper,
+    .scissors,
+    .lizard,
+    .spock {
+      height: 16.667vw;
+      width: 16.667vw;
+      margin: 0 16px;
+    }
+  }
+  
 
