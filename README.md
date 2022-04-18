@@ -48,7 +48,7 @@ The Rock paper scissor wireframes was developed using the software [Balsamiq](ht
 The Rock Paper Scissors site was developed to provide a fun experience when you have a small amount of time to kill. The site layout is simple with a retro pixalated feel to it. It is a nod to the arcade experience and has the same consistency through the look and feel of the webpages structure across all pages and breakpoints.
 
 
-### Homepage
+# Homepage
 
 - You are presented with a rock paper scissors logo as your first point of contact with the page.
 - Then we have the classic game mode which will lead the player to a classic version of the game with 3 move options.
@@ -85,7 +85,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 
  [Back to top]()
 
-### Mayhem Game Mode
+# Mayhem Game Mode
 - The user is presented with a name submit box so they can enter the name they want to use throughout the game.
  ![image](https://user-images.githubusercontent.com/67274642/163813444-a95d2c1c-b9fd-4570-8635-9e21bfa37868.png)
 
@@ -108,7 +108,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 
 
 
-### How to play
+# How to play
 
 - The **How to play** section provides the information about what game moves defeat eachother. And has a back button that takes you back to the main page.
 
