@@ -1,4 +1,27 @@
+//
+// player name
+//
 
+let nameForm = document.querySelector("#name-form");
+nameForm.addEventListener("submit", changePlayerName);
+
+function changePlayerName(event) {
+  event.preventDefault();
+  let nameInput = document.querySelector("#name-text-input");
+
+  let playerName = document.querySelector(".player-name");
+  playerName.innerHTML = `${nameInput.value}`;
+
+  let playerName480 = document.querySelector(".player-name-480");
+  playerName480.innerHTML = `${nameInput.value}`;
+
+  let formContainer = document.querySelector(".enter-name-wrapper");
+  formContainer.classList.add("hidden");
+}
+
+//
+// player name ends 
+//
 //variables for game options
 
 let rockPlayer = document.querySelector(".rock");
