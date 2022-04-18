@@ -189,7 +189,7 @@ body {
   /* menu ends */
 
 .container-mayhem {
-    height: 100vh;
+
     display: flex;
     flex-direction: column;
     align-items: stretch;
