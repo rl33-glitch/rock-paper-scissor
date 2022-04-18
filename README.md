@@ -45,7 +45,7 @@ The Rock paper scissor wireframes was developed using the software [Balsamiq](ht
 
 # Features
 
-The Rock Paper Scissors site was developed to provide a fun experience when you have a small amount of time to kill. The site layout is simple 
+The Rock Paper Scissors site was developed to provide a fun experience when you have a small amount of time to kill. The site layout is simple with a retro pixalated feel to it. It is a nod to the arcade experience and has the same consistency through the look and feel of the webpages structure across all pages and breakpoints.
 
 
 ### Navigation
