@@ -163,6 +163,9 @@ The CSS validator results presented below:
  - How it works
  <img width="1419" alt="Screenshot 2022-04-18 at 16 18 14" src="https://user-images.githubusercontent.com/67274642/163830783-3c4378cc-a866-47cc-adca-606418472b4d.png">
  
+The javascript validator results presented below:
+
+![image](https://user-images.githubusercontent.com/67274642/163866670-396bf509-c3ff-40f2-8ef2-6bb1674e7566.png)
 
 
 
