@@ -22,6 +22,41 @@ function changePlayerName(event) {
 //
 // player name ends 
 //
+
+//
+// menu starts
+//
+
+let menuButton = document.querySelector("#menu-button");
+menuButton.addEventListener("click", openMenu);
+
+let menuButton480 = document.querySelector("#menu-button-480");
+menuButton480.addEventListener("click", openMenu);
+
+function openMenu(event) {
+  event.preventDefault();
+
+  let menu = document.querySelector(".menu-wrapper");
+  menu.classList.add("menu-show");
+}
+
+let closeButton = document.querySelector(".close");
+closeButton.addEventListener("click", closeMenu);
+
+let resumeButton = document.querySelector("#resume");
+resumeButton.addEventListener("click", closeMenu);
+
+function closeMenu(event) {
+  event.preventDefault();
+
+  let menu = document.querySelector(".menu-wrapper");
+  menu.classList.remove("menu-show");
+}
+
+//
+// menu ends
+//
+
 //variables for game options
 
 let rockPlayer = document.querySelector(".rock");
