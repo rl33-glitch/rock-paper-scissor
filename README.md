@@ -63,7 +63,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 [Back to top]()
 
 
-### Classic Game Mode
+# Classic Game Mode
 - The user is presented with a name submit box so they can enter the name they want to use throughout the game.
 ![image](https://user-images.githubusercontent.com/67274642/163813206-49c86f37-0b57-46fc-8e14-76f68246d9ec.png)
 
