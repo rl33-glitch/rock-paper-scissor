@@ -178,6 +178,7 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
   The **Rock Paper Scissors results are presented below
   
 - Homepage 
+
    
   <img width="1430" alt="Homepage-LH-01" src="https://user-images.githubusercontent.com/67274642/163833460-2351d73f-7a21-4fc4-b45d-6bcb9daa11fb.png">
 
@@ -185,10 +186,12 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 
 - Game
 
+
 <img width="1440" alt="Game-LH-01" src="https://user-images.githubusercontent.com/67274642/163833540-515e22b1-92b4-498f-bd8a-c544ece1af50.png">
 
 
 - How to play
+
 
 <img width="1436" alt="How-to-play-LH-01" src="https://user-images.githubusercontent.com/67274642/163833682-87b71c89-916a-46b8-85cc-cc07b6763655.png">
 
