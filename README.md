@@ -134,24 +134,31 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 The **Rock Paper Scissors** site code has been tested through the [W3C HTML Validator](https://validator.w3.org/), and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the homepage, locations page and contact us page. After a fix and retest, no errors were found.
 
 The HTML validator results for each page presented below:
+
   - Homepage
-  <img >
+   <img width="1394" alt="Screenshot 2022-04-18 at 16 29 15" src="https://user-images.githubusercontent.com/67274642/163832220-ecd82b3d-98d6-43f3-b0fa-20a3a640cea4.png">
+  
   - Mayhem game mode page
-  <img >
+  <img width="1381" alt="Screenshot 2022-04-18 at 16 30 22" src="https://user-images.githubusercontent.com/67274642/163832243-8f9f4919-3878-4dff-8b8f-d304aba32bb7.png">
+
   - Classic game mode page
-  <img >
+     <img width="1386" alt="Screenshot 2022-04-18 at 16 29 39" src="https://user-images.githubusercontent.com/67274642/163832263-b296d4ca-b779-4a67-9098-b59ce4f424af.png">
+ 
   - How to play
-  <img >
+    <img width="1384" alt="Screenshot 2022-04-18 at 16 30 46" src="https://user-images.githubusercontent.com/67274642/163832231-4c337eeb-292e-4b64-8da7-2c9461c32091.png">
+   
+
+
  
 The CSS validator results presented below:
  
- -Homepage
+ - Homepage
  <img width="1423" alt="Screenshot 2022-04-18 at 16 16 57" src="https://user-images.githubusercontent.com/67274642/163831017-1058fac7-bfe1-4317-899f-b7feb015214c.png">
  - Mayhem game mode page
  <img width="1428" alt="Screenshot 2022-04-18 at 16 17 49" src="https://user-images.githubusercontent.com/67274642/163830910-155e17dc-ba5b-40a3-94db-4b2690c586c6.png">
- -Classic game mode page
+ - Classic game mode page
  <img width="1414" alt="Screenshot 2022-04-18 at 16 17 27" src="https://user-images.githubusercontent.com/67274642/163830957-54c69790-291a-4d0b-86f4-685ea436cafb.png">
- -How it works
+ - How it works
  <img width="1419" alt="Screenshot 2022-04-18 at 16 18 14" src="https://user-images.githubusercontent.com/67274642/163830783-3c4378cc-a866-47cc-adca-606418472b4d.png">
  
 
@@ -169,9 +176,24 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
     - **SEO** - Search engine optimisation. Is the site optimised for search engine result rankings.
 
   The **Rock Paper Scissors results are presented below
-  <img >
   
-  The test shows that the site is slow to load, mainly due to the images sizes.
+  - Homepage 
+   
+  <img width="1430" alt="Homepage-LH-01" src="https://user-images.githubusercontent.com/67274642/163833460-2351d73f-7a21-4fc4-b45d-6bcb9daa11fb.png">
+
+<img width="424" alt="Homepage-LH-02" src="https://user-images.githubusercontent.com/67274642/163833471-791f2f14-5b52-4c0b-92d5-2a32fce5158b.png">
+
+- Game
+
+<img width="1440" alt="Game-LH-01" src="https://user-images.githubusercontent.com/67274642/163833540-515e22b1-92b4-498f-bd8a-c544ece1af50.png">
+
+<img width="425" alt="Game-LH-02" src="https://user-images.githubusercontent.com/67274642/163833550-92d4649f-83eb-45e0-8980-edc9201f67b6.png">
+
+- How to play
+
+<img width="1436" alt="How-to-play-LH-01" src="https://user-images.githubusercontent.com/67274642/163833682-87b71c89-916a-46b8-85cc-cc07b6763655.png">
+
+<img width="424" alt="How-to-play-LH-02" src="https://user-images.githubusercontent.com/67274642/163833692-bd52c953-45dc-4e6c-aaba-3e7f25e86ac4.png">
 
 [Back to top](
 )
@@ -185,15 +207,15 @@ The **Rock Paper Scissors** site was tested with no visible issues for the user 
 
 ### Resolved bugs
 
--During validation a css syntax error was found on the Home page
+- During validation a css syntax error was found on the Home page
 
  <img width="1406" alt="Screenshot 2022-04-18 at 15 39 37" src="https://user-images.githubusercontent.com/67274642/163825346-69291178-e3d7-4eb6-b80d-25e11270ae72.png">
 
--During validation a html tag duplication error Mayhem page
+- During validation a html tag duplication error Mayhem page
 
  <img width="1393" alt="Screenshot 2022-04-18 at 15 45 46 (1)" src="https://user-images.githubusercontent.com/67274642/163826798-e750ab6e-fcd0-4fc3-9d47-a89c26528610.png">
  
--During validation a html tag duplication error on the Classic page
+- During validation a html tag duplication error on the Classic page
 
 <img width="1377" alt="Screenshot 2022-04-18 at 15 53 23" src="https://user-images.githubusercontent.com/67274642/163827212-3bf6e0b8-a842-411c-a556-a49f65784ae7.png">
 
