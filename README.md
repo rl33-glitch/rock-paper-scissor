@@ -1,5 +1,5 @@
 # Rock-Paper-scissors-spock-lizard
-Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It origonated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard**.
+Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It origonated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard** which reduces the chance of the round ending in a draw.
 
 Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-paper-scissor/)
 
@@ -32,6 +32,7 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 # User stories
 
 
+
 # Wireframes
 
 The Rock paper scissor wireframes was developed using the software [Balsamiq](https://balsamiq.com/). The wireframe provides a view for desktop and mobile devices of the four pages (Home page, Mayhem game mode page, Classic game mode page, How to play game page).
@@ -44,6 +45,7 @@ The Rock paper scissor wireframes was developed using the software [Balsamiq](ht
 
 # Features
 
+The Rock Paper Scissors site was developed to provide a fun experience when you have a small amount of time to kill. The site layout is simple 
 
 
 ### Navigation
