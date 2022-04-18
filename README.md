@@ -8,7 +8,7 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 # Content
 - [User stories]()
 - [Wireframes]
-- [Features]
+- [Features](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#features)
   - [Navigation]
   - [The header]
   - [Middle section]
