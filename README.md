@@ -1,7 +1,7 @@
 # Rock-Paper-scissors-spock-lizard
-Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the other. 
+Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It origonated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard**.
 
-Welcome to the journey through [Rock Paper Scissors](https://rl33-glitch.github.io/rock-paper-scissor/)
+Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-paper-scissor/)
 
 
 
