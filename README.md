@@ -6,7 +6,6 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 
 
 # Content
-- [User stories]()
 - [Wireframes]
 - [Features](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#features)
 - [Homepage](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Homepage)
@@ -24,14 +23,10 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 - [Media](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Media)
 - [Acknowledgements](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Acknowledgements)
 
-# User stories
-- As a user i want to know what the site purpose is in a short amount of time.
 
-- The purpose of the site is clear from the header with a easy layout of functions
  
  
  
-
 
 # Wireframes
 
