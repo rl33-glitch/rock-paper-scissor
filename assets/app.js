@@ -2,12 +2,12 @@
 // player name
 //
 
-let nameForm = document.querySelector("#name-form");
+let nameForm = document.querySelector(".name-form");
 nameForm.addEventListener("submit", changePlayerName);
 
 function changePlayerName(event) {
   event.preventDefault();
-  let nameInput = document.querySelector("#name-text-input");
+  let nameInput = document.querySelector(".name-text-input");
 
   let playerName = document.querySelector(".player-name");
   playerName.innerHTML = `${nameInput.value}`;
