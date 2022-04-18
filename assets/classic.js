@@ -62,8 +62,6 @@ function closeMenu(event) {
 let rockPlayer = document.querySelector(".rock");
 let paperPlayer = document.querySelector(".paper");
 let scissorsPlayer = document.querySelector(".scissors");
-let lizardPlayer = document.querySelector(".lizard");
-let spockPlayer = document.querySelector(".spock");
 
 //variable for player option image
 
@@ -126,43 +124,16 @@ function scissorsSelected() {
     getResults();
 }
 
-//lizard option move
-
-lizardPlayer.addEventListener("click", lizardSelected);
-
-function lizardSelected() {
-    userChoice = lizardPlayer.id;
-    userChoiceImg = document.querySelector(".player-selected-img").src =
-    "images/lizard-player.png";
-
-    generateComputerChoice();
-    getResults();
-}
-
-//spock option move
-
-spockPlayer.addEventListener("click", spockSelected);
-
-function spockSelected() {
-    userChoice = spockPlayer.id;
-    userChoiceImg = document.querySelector(".player-selected-img").src =
-    "images/spock-player.png"; 
-
-    generateComputerChoice();
-    getResults();
-}
-
 //computer choice
 
 function generateComputerChoice() {
-    let randomNumber = Math.floor(Math.random() *5) + 1;
+    let randomNumber = Math.floor(Math.random() *3) + 1;
 
     let computerPossibilities = [
-        "0", "rock", "paper", "scissors", "lizard", "spock"
+        "0", "rock", "paper", "scissors"
     ];
 
     computerChoice = computerPossibilities[randomNumber];
-    console.log(computerChoice);
 
     if (computerChoice === "rock") {
        computerChoiceImg = document.querySelector(".computer-selected-img").src =
@@ -177,16 +148,6 @@ function generateComputerChoice() {
     if (computerChoice === "scissors") {
         computerChoiceImg = document.querySelector(".computer-selected-img").src =
           "images/scissor-computer.png";
-      }
-    
-    if (computerChoice === "lizard") {
-        computerChoiceImg = document.querySelector(".computer-selected-img").src =
-          "images/lizard-computer.png";
-      }
-    
-    if (computerChoice === "spock") {
-        computerChoiceImg = document.querySelector(".computer-selected-img").src =
-          "images/spock-computer.png";
       }
 }
 
@@ -222,22 +183,6 @@ function getResults() {
     userScoreResult480.innerHTML = userScore;
     }
 
-    if (userChoice === "rock" && computerChoice === "lizard") {
-
-        
-        playerBackgroundColour.classList.add("winner");
-        computerBackgroundColour.classList.remove("winner");
-
-        resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Rock crushes lizard";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-    }
 
     if (userChoice === "paper" && computerChoice === "rock") {
     
@@ -257,23 +202,6 @@ function getResults() {
 
     }
    
-    if (userChoice === "paper" && computerChoice === "spock") {
-        
-            playerBackgroundColour.classList.add("winner");
-            computerBackgroundColour.classList.remove("winner");
-
-        
-    
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Paper disproves Spock";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
   
   if ( userChoice === "scissors" && computerChoice === "paper") {
 
@@ -291,95 +219,6 @@ function getResults() {
     userScoreResult480.innerHTML = userScore;
   }
 
-  if (userChoice === "scissors" && computerChoice === "lizard") {
-  
-
-        playerBackgroundColour.classList.add("winner");
-        computerBackgroundColour.classList.remove("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Scissors decapitates Lizard";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
-
-  if (userChoice === "lizard" && computerChoice === "paper") {
-    
-    playerBackgroundColour.classList.add("winner");
-    computerBackgroundColour.classList.remove("winner");
-
-   
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Lizard eats paper";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
-
-  if (userChoice === "lizard" && computerChoice === "spock") {
-    
-
-    
-    playerBackgroundColour.classList.add("winner");
-    computerBackgroundColour.classList.remove("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Lizard poisons Spock";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
-
-  if (userChoice === "spock" && computerChoice === "scissors") {
-    
-   playerBackgroundColour.classList.add("winner");
-    computerBackgroundColour.classList.remove("winner");
-
-    
-   
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Spock smashes scissors";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
-
-  if (userChoice === "spock" && computerChoice === "rock") {
-    
-    playerBackgroundColour.classList.add("winner");
-    computerBackgroundColour.classList.remove("winner");
-
-   
-    
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Spock vaporizes rock";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-  }
 
   //player loose
 
@@ -396,18 +235,6 @@ function getResults() {
     computerScoreResult480.innerHTML = computerScore;
   }
 
-  if (computerChoice === "rock" && userChoice === "lizard") {
-    
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Rock crushes lizard";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
 
   if (computerChoice === "paper" && userChoice === "rock") {
     
@@ -417,19 +244,6 @@ function getResults() {
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Paper covers rock";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-  if (computerChoice === "paper" && userChoice === "spock") {
-    
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-   
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Paper disproves Spock";
     computerScore++;
     computerScoreResult.innerHTML = computerScore;
     computerScoreResult480.innerHTML = computerScore;
@@ -447,73 +261,5 @@ function getResults() {
     computerScoreResult.innerHTML = computerScore;
     computerScoreResult480.innerHTML = computerScore;
   }
-
-  if (computerChoice === "scissors" && userChoice === "lizard") {
-    
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-   
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Scissors decapitates Lizard";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-  if (computerChoice === "lizard" && userChoice === "paper") {
-   
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-   
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Lizard eats paper";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-  if (computerChoice === "lizard" && userChoice === "spock") {
-   
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Lizard poisons Spock";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-  if (computerChoice === "spock" && userChoice === "scissors") {
-    
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Spock smashes scissors";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-  if (computerChoice === "spock" && userChoice === "rock") {
-    
-    playerBackgroundColour.classList.remove("winner");
-    computerBackgroundColour.classList.add("winner");
-
-    
-    resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
-    resultInfo.innerHTML = "Spock vaporizes rock";
-    computerScore++;
-    computerScoreResult.innerHTML = computerScore;
-    computerScoreResult480.innerHTML = computerScore;
-  }
-
-
-
     
 }
