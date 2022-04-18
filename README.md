@@ -62,7 +62,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 
 
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 
 # Classic Game Mode
@@ -85,7 +85,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 
 ![image](https://user-images.githubusercontent.com/67274642/163819549-a4c9dc4b-6fed-495e-9899-e8d8257b76ca.png)
 
- [Back to top]()
+ [Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 # Mayhem Game Mode
 - The user is presented with a name submit box so they can enter the name they want to use throughout the game.
@@ -106,7 +106,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
  
  ![image](https://user-images.githubusercontent.com/67274642/163817359-6fa059ba-b605-48f6-851d-871fcebfceb9.png)
 
- [Back to top]()
+ [Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 
 
@@ -116,7 +116,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 
  ![image](https://user-images.githubusercontent.com/67274642/163818597-125ca138-bc4e-4ad9-9e72-5a70d043746f.png)
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 
 
@@ -129,7 +129,7 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 - Github - used to host and edit website.
 - JavaScript - used to add behaviour to the game.
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 # Testing
 
@@ -166,7 +166,7 @@ The CSS validator results presented below:
 
 
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 ### Acessibility
 I confirmed that the colors and fonts chosen are easy to read and accessible by manually running a  test lighthouse in [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
@@ -198,13 +198,13 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 <img width="1436" alt="How-to-play-LH-01" src="https://user-images.githubusercontent.com/67274642/163833682-87b71c89-916a-46b8-85cc-cc07b6763655.png">
 
 
-[Back to top](
-)
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
+
 
 ### Browser Compatibility
 The **Rock Paper Scissors** site was tested with no visible issues for the user on the following browsers: Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 # Bugs
 
@@ -227,7 +227,7 @@ The **Rock Paper Scissors** site was tested with no visible issues for the user 
  
   
   
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 # Deployment
 ### To deploy the project
@@ -239,7 +239,7 @@ The site was deployed to GitHub pages. The steps to deploy the site are presente
 
 The live link to the **Github** repository can be found here [Workspace github repository]().
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 # Credits
 ## Content
@@ -255,7 +255,7 @@ The live link to the **Github** repository can be found here [Workspace github r
 - [youtube](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=969s) used as a reference.
 - [youtube](https://www.youtube.com/watch?v=1yS-JV4fWqY&t=808s) used as a reference.
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
 
 ## Media
 
@@ -265,4 +265,4 @@ The live link to the **Github** repository can be found here [Workspace github r
 
 The site was completed as a Portfolio 2 project piece for the **Full Stack Software Developer** diploma at the [Code Institute](https://codeinstitute.net/ie/), and [UCD - University College Dublin](https://www.ucd.ie/).
 
-[Back to top]()
+[Back to top](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#rock-paper-scissors-spock-lizard)
