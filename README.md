@@ -6,7 +6,7 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 
 
 # Content
-- [User stories](https://github.com/rl33-glitch/rock-paper-scissor/edit/main/README.md#Userstories)
+- [User stories]()
 - [Wireframes]
 - [Features]
   - [Navigation]
