@@ -67,11 +67,11 @@ The Rock Paper Scissors site was developed to provide a fun experience when you 
 - The user is presented with a name submit box so they can enter the name they want to use throughout the game.
 ![image](https://user-images.githubusercontent.com/67274642/163813206-49c86f37-0b57-46fc-8e14-76f68246d9ec.png)
 
--Once the user enters there name they are taken to the main **Classic** game mode page in which there name will be visible above there game score.
+- Once the user enters there name they are taken to the main **Classic** game mode page in which there name will be visible above there game score.
 
 ![image](https://user-images.githubusercontent.com/67274642/163819055-8c731f88-0d83-4ea4-afe6-4bb2ff69e3c6.png)
 
--The player and computer scores are seperated by a menu button which will give the user the option to pause,resume and restart the game in which case they will have to re-enter there name. While also adding the options from the Home page. 
+- The player and computer scores are seperated by a menu button which will give the user the option to pause,resume and restart the game in which case they will have to re-enter there name. While also adding the options from the Home page. 
 
 ![image](https://user-images.githubusercontent.com/67274642/163814718-70a85d01-407b-45e2-aea4-4e234384ad1f.png)
 
@@ -177,23 +177,21 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 
   The **Rock Paper Scissors results are presented below
   
-  - Homepage 
+- Homepage 
    
   <img width="1430" alt="Homepage-LH-01" src="https://user-images.githubusercontent.com/67274642/163833460-2351d73f-7a21-4fc4-b45d-6bcb9daa11fb.png">
 
-<img width="424" alt="Homepage-LH-02" src="https://user-images.githubusercontent.com/67274642/163833471-791f2f14-5b52-4c0b-92d5-2a32fce5158b.png">
+
 
 - Game
 
 <img width="1440" alt="Game-LH-01" src="https://user-images.githubusercontent.com/67274642/163833540-515e22b1-92b4-498f-bd8a-c544ece1af50.png">
 
-<img width="425" alt="Game-LH-02" src="https://user-images.githubusercontent.com/67274642/163833550-92d4649f-83eb-45e0-8980-edc9201f67b6.png">
 
 - How to play
 
 <img width="1436" alt="How-to-play-LH-01" src="https://user-images.githubusercontent.com/67274642/163833682-87b71c89-916a-46b8-85cc-cc07b6763655.png">
 
-<img width="424" alt="How-to-play-LH-02" src="https://user-images.githubusercontent.com/67274642/163833692-bd52c953-45dc-4e6c-aaba-3e7f25e86ac4.png">
 
 [Back to top](
 )
