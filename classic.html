@@ -20,7 +20,67 @@
     <title>Document</title>
 </head>
 <body>
-  <a href="index.html" class="link"><i class="fa-solid fa-square"></i>&nbsp;&nbsp;Back&nbsp;&nbsp;<i class="fa-solid fa-square"></i> </a>
+      <!-- PLAYER NAME STARTS -->
+      <div class="enter-name-wrapper">
+        <div class="enter-name-container">
+          <form id="name-form">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              autofocus="on"
+              id="name-text-input"
+              required
+            />
+            <input type="submit" value="Play" class="play" id="play" />
+          </form>
+        </div>
+      </div>
+      <!-- PLAYER NAME ENDS -->
+
+      <!-- MENU STARTS -->
+    <div class="menu-wrapper">
+      <div class="menu-cont">
+        <div class="close-container">
+          <a href="" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="menu-links-container">
+          <div class="link-container">
+            <a href="mayhem.html" class="menu-link" id="resume"
+              ><i class="fa-solid fa-square"></i
+              >&nbsp;&nbsp;RESUME&nbsp;&nbsp;<i class="fa-solid fa-square"></i
+            ></a>
+          </div>
+          <div class="link-container">
+            <a href="mayhem.html" class="menu-link"
+              ><i class="fa-solid fa-square"></i
+              >&nbsp;&nbsp;RESTART&nbsp;&nbsp;<i class="fa-solid fa-square"></i
+            ></a>
+          </div>
+          <div class="link-container">
+            <a href="index.html" class="menu-link"
+              ><i class="fa-solid fa-square"></i>&nbsp;&nbsp;HOME&nbsp;&nbsp;<i
+                class="fa-solid fa-square"
+              ></i
+            ></a>
+          </div>
+          <div class="link-container">
+            <a href="classic.html" class="menu-link"
+              ><i class="fa-solid fa-square"></i
+              >&nbsp;&nbsp;CLASSIC&nbsp;&nbsp;<i class="fa-solid fa-square"></i
+            ></a>
+          </div>
+          <div class="link-container">
+            <a href="" class="menu-link"
+              ><i class="fa-solid fa-square"></i>&nbsp;&nbsp;HOW TO
+              PLAY&nbsp;&nbsp;<i class="fa-solid fa-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MENU ENDS -->
+  
     <section class="container-mayhem">
         <div class="wrapper-mayhem">
           <div class="circle-top">
@@ -73,7 +133,7 @@
                    <!--bottom selection option section -->
                    <div class="player-options-container">
                     <div class="player-options-content">
-                      <span class="">Select one option</span>
+                      <span class="options-info">Select one option</span>
                     </div>
                     <div class="options-wrapper">
                       <a class="rock" id="rock">
@@ -100,7 +160,7 @@
           </body>
         </html>
     </section>
-                     <!--bottom selection option section -->
+    <!--bottom selection option section -->
     
 </body>
 </html>
