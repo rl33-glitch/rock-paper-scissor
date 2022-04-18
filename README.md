@@ -9,6 +9,7 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 
 
 # Content
+- [User stories](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#User-stories)
 - [Wireframes](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Wireframes)
 - [Features](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#features)
 - [Homepage](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Homepage)
@@ -27,6 +28,22 @@ Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-pape
 - [Acknowledgements](https://github.com/rl33-glitch/rock-paper-scissor/blob/main/README.md#Acknowledgements)
 
 
+# User stories
+
+- As a person with a short amount of time to kill. 
+ I want a familiar easy game of chance to help pass the time.
+ 
+- As a person who doesnt have anybody else to immediately play with when it suits me.
+ I want to play against the AI.
+ 
+- As a competitive person i want to be able to see the score.
+ I want a scoreboard function.
+ 
+- As a person that likes to win.
+ I want a winning result indicator.
+ 
+- As a person that likes paper scissors rock.
+ I want a game that follows the ruleset.
  
  
  
