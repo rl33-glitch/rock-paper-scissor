@@ -1,5 +1,5 @@
 # Rock-Paper-scissors-spock-lizard
-Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It origonated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard** which reduces the chance of the round ending in a draw.
+Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It originated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard** which reduces the chance of the round ending in a draw.
 
 Welcome to my game [Rock Paper Scissors](https://rl33-glitch.github.io/rock-paper-scissor/)
 
@@ -48,103 +48,84 @@ The Rock paper scissor wireframes was developed using the software [Balsamiq](ht
 The Rock Paper Scissors site was developed to provide a fun experience when you have a small amount of time to kill. The site layout is simple with a retro pixalated feel to it. It is a nod to the arcade experience and has the same consistency through the look and feel of the webpages structure across all pages and breakpoints.
 
 
-### Navigation
+### Homepage
 
-- 
-- 
-- 
+- You are presented with a rock paper scissors logo as your first point of contact with the page.
+- Then we have the classic game mode which will lead the player to a classic version of the game with 3 move options.
+- Under this we have the mayhem game mode which adds 2 extra moves to the players options which increases complexity and adds a more modern twist to the game.
+- We are then presented with a how to play option which will take the user to a screen showing each moves strengths and weaknesses to give the player a guide on what moves will win and loose or draw.
 
+![image](https://user-images.githubusercontent.com/67274642/163822409-4b243cf4-5629-4506-a028-ba1ff8a3dca0.png)
 
-
-[Back to top]()
-
-### The header
-
-- 
-
-<img >
-
-[Back to top]()
-
-### Middle section
-
-- 
-- 
-
-<img >
 
 
 
 [Back to top]()
 
-### How it works
-
-- The **How it works** section provides the information about
-
-<img width=>
-
-[Back to top]()
-
-### Footer
-
-- 
-- 
-- 
-
-**Rock paper scissors**
-- 
-
-<img width>
-
-[Back to top]()
-
-### Home Page
-
-- The **Home page** page presents the users 3 options for the **Rock paper scissors** game.
-
-![Home page]()
-
-[Back to top]()
-
-### Mayhem Game Mode Page
-
-- The **Mayhem game** 
-- 
-
-![Mayhem game]()
-
-[Back to top]()
 
 ### Classic Game Mode
+- The user is presented with a name submit box so they can enter the name they want to use throughout the game.
+![image](https://user-images.githubusercontent.com/67274642/163813206-49c86f37-0b57-46fc-8e14-76f68246d9ec.png)
 
-- The **Classic game** 
-- 
-- 
+-Once the user enters there name they are taken to the main **Classic** game mode page in which there name will be visible above there game score.
 
-![How To Play]()
+![image](https://user-images.githubusercontent.com/67274642/163819055-8c731f88-0d83-4ea4-afe6-4bb2ff69e3c6.png)
+
+-The player and computer scores are seperated by a menu button which will give the user the option to pause,resume and restart the game in which case they will have to re-enter there name. While also adding the options from the Home page. 
+
+![image](https://user-images.githubusercontent.com/67274642/163814718-70a85d01-407b-45e2-aea4-4e234384ad1f.png)
+
+- Under the score and menu section there is the display where the players selected move will be displayed against the computers move. If you win your selected move changes colour to green and a you win display appears.
+ 
+![image](https://user-images.githubusercontent.com/67274642/163819167-862500f3-5443-4526-9ea1-30cfa4106186.png)
+
+- On the bottom of the page is where the various moves that the player can choose from are in this mode there are 3.The user can only select one option per each game turn.
+
+![image](https://user-images.githubusercontent.com/67274642/163819549-a4c9dc4b-6fed-495e-9899-e8d8257b76ca.png)
+
+ [Back to top]()
+
+### Mayhem Game Mode
+- The user is presented with a name submit box so they can enter the name they want to use throughout the game.
+ ![image](https://user-images.githubusercontent.com/67274642/163813444-a95d2c1c-b9fd-4570-8635-9e21bfa37868.png)
+
+- Once the user enters there name they are taken to the main **Mayhem** game mode page in which there name will be visible above there game score.
+
+ ![image](https://user-images.githubusercontent.com/67274642/163814249-df9181ef-f3e0-4002-9d87-b6ecf22a05eb.png)
+ 
+- The player and computer scores are seperated by a menu button which will give the user the option to pause,resume and restart the game in which case they will have to re-enter there name. While also adding the options from the Home page. 
+ ![image](https://user-images.githubusercontent.com/67274642/163814718-70a85d01-407b-45e2-aea4-4e234384ad1f.png)
+ 
+- Under the score and menu section there is the display where the players selected move will be displayed against the computers move. If you win your selected move changes colour to green and a you win display appears.
+
+ ![image](https://user-images.githubusercontent.com/67274642/163817049-a999f58e-e17e-420e-a800-5a9e2615c225.png)
+ 
+- On the bottom of the page is where the various moves that the player can choose from are in this mode there are 5.The user can only select one option per each game turn.
+ 
+ ![image](https://user-images.githubusercontent.com/67274642/163817359-6fa059ba-b605-48f6-851d-871fcebfceb9.png)
+
+ [Back to top]()
+
+
+
+### How to play
+
+- The **How to play** section provides the information about what game moves defeat eachother. And has a back button that takes you back to the main page.
+
+ ![image](https://user-images.githubusercontent.com/67274642/163818597-125ca138-bc4e-4ad9-9e72-5a70d043746f.png)
 
 [Back to top]()
 
-### How To Play
 
-- The **How To Play
-- 
-- 
-- 
-
-
-<img width=>
-
-[Back to top]()
 
 # Technologies Used
 
 - HTML5 - provides the content and structure for the website.
-- CSS - provides the styling.#
+- CSS - provides the styling.
 - Balsamiq - used to create the wireframes.
 - Gitpod - used to deploy the website.
 - Github - used to host and edit website.
-- JavaScript-
+- JavaScript - used to add behaviour to the game.
 
 [Back to top]()
 
@@ -163,7 +144,10 @@ The HTML validator results for each page presented below:
   <img >
  
 The CSS validator results presented below:
-<img >
+ -Homepage
+ 
+ 
+
 
 [Back to top]()
 
@@ -192,11 +176,23 @@ The **Rock Paper Scissors** site was tested with no visible issues for the user 
 # Bugs
 
 ### Resolved bugs
-During validation stage two bugs became known, a brief description is presented below:
-- Home page
+
+-During validation a css syntax error was found on the Home page
+
+ <img width="1406" alt="Screenshot 2022-04-18 at 15 39 37" src="https://user-images.githubusercontent.com/67274642/163825346-69291178-e3d7-4eb6-b80d-25e11270ae72.png">
+
+-During validation a html tag duplication error Mayhem page
+
+ <img width="1393" alt="Screenshot 2022-04-18 at 15 45 46 (1)" src="https://user-images.githubusercontent.com/67274642/163826798-e750ab6e-fcd0-4fc3-9d47-a89c26528610.png">
+ 
+-During validation a html tag duplication error on the Classic page
+
+<img width="1377" alt="Screenshot 2022-04-18 at 15 53 23" src="https://user-images.githubusercontent.com/67274642/163827212-3bf6e0b8-a842-411c-a556-a49f65784ae7.png">
+
+
  
  
-  The video was not loading while the site was in production. This was solved by copying the download link on github and adding it to the video source.
+  
   
 [Back to top]()
 
@@ -216,22 +212,24 @@ The live link to the **Github** repository can be found here [Workspace github r
 ## Content
 
 - The font came from [Google Fonts](https://fonts.google.com/).
-- The colour palate was compiled by [Colorhunt](https://colorhunt.co/).
 - The icons came from [Font Awesome](https://fontawesome.com/.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 - [MDN](https://developer.mozilla.org/en-US/) was used as a code resource.
 - [W3 Schools](https://www.w3schools.com/css/) was used as a code resource.
 - [Stackoverflow](https://stackoverflow.com/) was used as a code resource.
 - [Dribbble](https://dribbble.com/) was used for design inspiration.
+- [youtube](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=3408s) used as a reference.
+- [youtube](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=969s) used as a reference.
+- [youtube](https://www.youtube.com/watch?v=1yS-JV4fWqY&t=808s) used as a reference.
 
 [Back to top]()
 
 ## Media
 
-- The website photos came from [Pexels](https://www.pexels.com/), [Freekpik](https://www.freepik.com/), and [Unplash](https://unsplash.com/).
+- The website pictures came from [Freekpik](https://www.freepik.com/)
 
 # Acknowledgements
 
-The site was completed as a Portfolio 1 project piece for the **Full Stack Software Developer** diploma at the [Code Institute](https://codeinstitute.net/ie/), and [UCD - University College Dublin](https://www.ucd.ie/).
+The site was completed as a Portfolio 2 project piece for the **Full Stack Software Developer** diploma at the [Code Institute](https://codeinstitute.net/ie/), and [UCD - University College Dublin](https://www.ucd.ie/).
 
-[Back to top](https://github.com/rl33-glitch/work-space/blob/main/README.md#work-space)
+[Back to top]()
