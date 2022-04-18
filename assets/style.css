@@ -41,7 +41,7 @@ body {
 }
 
 .link-wrapper {
-    padding: 16px 0;
+    padding: 0;
 }
 
 .link {
@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     color: #cecece;
     vertical-align: middle;
+    line-height: 2;
 }
 
 .link i {
@@ -153,9 +154,6 @@ body {
     text-align: center;
   }
   
-  .close-container {
-    margin-bottom: 80px;
-  }
   
   .close {
     font-size: 72px;
@@ -167,7 +165,8 @@ body {
   }
   
   .link-container {
-    margin: 24px 0;
+    margin: 0;
+    line-height: 2;
   }
   
   .menu-link {
