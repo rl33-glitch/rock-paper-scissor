@@ -490,6 +490,8 @@ h1 {
 }
 
 #img-how-to-play {
+    width: 43.333vw;
+    height: 43.333vw;
     border: 5px solid
 }
 
@@ -530,6 +532,11 @@ h1 {
       height: 10.417vw;
       width: 10.417vw;
       margin: 0 16px;
+    }
+
+    #img-how-to-play {
+        width: 67.708vw;
+        height: 67.708vw;
     }
   }
   
@@ -647,6 +654,11 @@ h1 {
   
     .link i {
       font-size: 8px;
+    }
+
+    #img-how-to-play {
+        width: 87.500vw;
+        height: 87.500vw;
     }
   }
   
