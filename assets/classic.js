@@ -97,7 +97,6 @@ function rockSelected() {
 
     generateComputerChoice();
     getResults();
-
 }
 
 //paper option move
@@ -148,27 +147,23 @@ function generateComputerChoice() {
     if (computerChoice === "scissors") {
         computerChoiceImg = document.querySelector(".computer-selected-img").src =
           "images/scissor-computer.png";
-      }
+    }
 }
 
 function getResults() {
     //draw
 
     if (userChoice === computerChoice) {
-    
-        
         playerBackgroundColour.classList.remove("winner");
         computerBackgroundColour.classList.remove("winner");
 
         resultText.innerHTML = `<i class="fa-solid fa-face-meh-blank"></i>&nbsp;IT'S A DRAW!&nbsp;<i class="fa-solid fa-face-meh-blank"></i>`;
         resultInfo.innerHTML = "Make your move.";
-    
     }
 
     //player wins
 
     if (userChoice === "rock" && computerChoice === "scissors") {
-        
         playerBackgroundColour.classList.add("winner");
         computerBackgroundColour.classList.remove("winner");
 
@@ -177,16 +172,13 @@ function getResults() {
           ></i
         >`;
         resultInfo.innerHTML = "Rock crushes scissors";
-
         userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
+        userScoreResult.innerHTML = userScore;
+        userScoreResult480.innerHTML = userScore;
     }
 
 
     if (userChoice === "paper" && computerChoice === "rock") {
-    
-       
         playerBackgroundColour.classList.add("winner");
         computerBackgroundColour.classList.remove("winner");
 
@@ -195,38 +187,32 @@ function getResults() {
           ></i
         >`;
         resultInfo.innerHTML = "Paper covers rock";
-
         userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
-
+        userScoreResult.innerHTML = userScore;
+        userScoreResult480.innerHTML = userScore;
     }
    
   
   if ( userChoice === "scissors" && computerChoice === "paper") {
-
         playerBackgroundColour.classList.add("winner");
         computerBackgroundColour.classList.remove("winner");
 
-    resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
-            class="fa-solid fa-star"
-          ></i
-        >`;
-    resultInfo.innerHTML = "Scissors cuts Paper";
-
-    userScore++;
-    userScoreResult.innerHTML = userScore;
-    userScoreResult480.innerHTML = userScore;
+        resultText.innerHTML = `<i class="fa-solid fa-star"></i>&nbsp;YOU WIN!&nbsp;<i
+                class="fa-solid fa-star"
+            ></i
+            >`;
+        resultInfo.innerHTML = "Scissors cuts Paper";
+        userScore++;
+        userScoreResult.innerHTML = userScore;
+        userScoreResult480.innerHTML = userScore;
   }
 
 
   //player loose
 
   if (computerChoice === "rock" && userChoice === "scissors") {
-
     playerBackgroundColour.classList.remove("winner");
     computerBackgroundColour.classList.add("winner");
-
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Rock crushes scissors";
@@ -237,10 +223,8 @@ function getResults() {
 
 
   if (computerChoice === "paper" && userChoice === "rock") {
-    
     playerBackgroundColour.classList.remove("winner");
     computerBackgroundColour.classList.add("winner");
-
    
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Paper covers rock";
@@ -250,10 +234,8 @@ function getResults() {
   }
 
   if (computerChoice === "scissors" && userChoice === "paper") {
-    
     playerBackgroundColour.classList.remove("winner");
     computerBackgroundColour.classList.add("winner");
-
     
     resultText.innerHTML = `<i class="fa-solid fa-heart-crack"></i></i>&nbsp;YOU LOST!&nbsp;<i class="fa-solid fa-heart-crack"></i>`;
     resultInfo.innerHTML = "Scissors cuts Paper";
