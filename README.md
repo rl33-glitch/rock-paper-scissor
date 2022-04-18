@@ -1,3 +1,6 @@
+
+<img width="967" alt="Screenshot 2022-04-18 at 21 55 45 (1)" src="https://user-images.githubusercontent.com/67274642/163877052-512014c1-d726-4e6e-bf22-76986275f7f2.png">
+
 # Rock-Paper-scissors-spock-lizard
 Rock paper scissors is a classic game which has evolved some new additional moves over the years. It was origonally played between two people who used there hands to display the move they where making at the same time as the eachother. It originated in china and dates back to the chinese han dynasty. It is essentially in the same area as a coin toss or drawing straws as a method of choosing between two people. Over the years various iterations have developed which added more moves to the game creating a more complex playing experience. We have added one new iteration to this game which adds 2 extra moves **Spock** and **Lizard** which reduces the chance of the round ending in a draw.
 
