@@ -174,12 +174,19 @@ The HTML validator results for each page presented below:
 The CSS validator results presented below:
  
  - Homepage
+ 
  <img width="1423" alt="Screenshot 2022-04-18 at 16 16 57" src="https://user-images.githubusercontent.com/67274642/163831017-1058fac7-bfe1-4317-899f-b7feb015214c.png">
+ 
  - Mayhem game mode page
+ 
  <img width="1428" alt="Screenshot 2022-04-18 at 16 17 49" src="https://user-images.githubusercontent.com/67274642/163830910-155e17dc-ba5b-40a3-94db-4b2690c586c6.png">
+ 
  - Classic game mode page
+  
  <img width="1414" alt="Screenshot 2022-04-18 at 16 17 27" src="https://user-images.githubusercontent.com/67274642/163830957-54c69790-291a-4d0b-86f4-685ea436cafb.png">
+ 
  - How it works
+  
  <img width="1419" alt="Screenshot 2022-04-18 at 16 18 14" src="https://user-images.githubusercontent.com/67274642/163830783-3c4378cc-a866-47cc-adca-606418472b4d.png">
  
 The javascript validator results presented below:
