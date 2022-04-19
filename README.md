@@ -268,7 +268,7 @@ The live link to the **Github** repository can be found here [Workspace github r
 
 - The font came from [Google Fonts](https://fonts.google.com/).
 - The icons came from [Font Awesome](https://fontawesome.com/).
-- [Balsamiq](https://balsamiq.com/) was used to create the wireframes.
+- [Miro](https://miro.com/marketplace/wireframes/) was used to create the wireframes.
 - [MDN](https://developer.mozilla.org/en-US/) was used as a code resource.
 - [W3 Schools](https://www.w3schools.com/css/) was used as a code resource.
 - [Stackoverflow](https://stackoverflow.com/) was used as a code resource.
